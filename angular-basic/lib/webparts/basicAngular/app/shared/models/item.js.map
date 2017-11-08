@@ -1,0 +1,1 @@
+{"version":3,"sources":["webparts/basicAngular/app/shared/models/item.ts"],"names":[],"mappings":";;AAAA;IAAA;IAGA,CAAC;IAAD,gBAAC;AAAD,CAHA,AAGC,IAAA;AAHY,8BAAS","file":"webparts/basicAngular/app/shared/models/item.js","sourcesContent":["export class ItemModel {\r\n    public Id: number;\r\n    public Title: string;\r\n}"],"sourceRoot":"..\\..\\..\\..\\..\\..\\src"}

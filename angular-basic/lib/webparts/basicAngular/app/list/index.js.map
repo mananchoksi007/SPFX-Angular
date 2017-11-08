@@ -1,0 +1,1 @@
+{"version":3,"sources":["webparts/basicAngular/app/list/index.ts"],"names":[],"mappings":";;;;;AAAA,sCAAiC","file":"webparts/basicAngular/app/list/index.js","sourcesContent":["export * from \"./list.component\";"],"sourceRoot":"..\\..\\..\\..\\..\\src"}

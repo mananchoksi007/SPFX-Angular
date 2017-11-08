@@ -1,0 +1,7 @@
+<div>
+      <h2>Hello {{name}}</h2>
+      <div id="lists" *ngFor="let item of items">
+        <div class="item" [class.active]="item == itemclass" (click)="selectItem(item)">{{item}}</div>
+        <div>{{item.itemclass}}</div>
+      </div>
+    </div>

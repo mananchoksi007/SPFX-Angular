@@ -1,0 +1,1 @@
+{"version":3,"sources":["webparts/basicAngular/app/index.ts"],"names":[],"mappings":";;;;;AAAA,kCAA6B","file":"webparts/basicAngular/app/index.js","sourcesContent":["export * from \"./app.routes\";"],"sourceRoot":"..\\..\\..\\..\\src"}

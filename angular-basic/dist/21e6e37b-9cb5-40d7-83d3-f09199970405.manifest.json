@@ -1,0 +1,56 @@
+{
+  "id": "21e6e37b-9cb5-40d7-83d3-f09199970405",
+  "alias": "BasicAngularWebPart",
+  "componentType": "WebPart",
+  "version": "0.0.1",
+  "manifestVersion": 2,
+  "safeWithCustomScriptDisabled": false,
+  "preconfiguredEntries": [
+    {
+      "groupId": "21e6e37b-9cb5-40d7-83d3-f09199970405",
+      "group": {
+        "default": "Under Development"
+      },
+      "title": {
+        "default": "BasicAngular"
+      },
+      "description": {
+        "default": "Basic Angular WebPart leveraging the BaseAngularWebPart class"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "BasicAngular"
+      }
+    }
+  ],
+  "loaderConfig": {
+    "entryModuleId": "basic-angular.bundle",
+    "internalModuleBaseUrls": [
+      "https://localhost:4321/"
+    ],
+    "scriptResources": {
+      "basic-angular.bundle": {
+        "type": "path",
+        "path": "dist/basic-angular.bundle.js"
+      },
+      "URL": {
+        "type": "path",
+        "path": "https://cdnjs.cloudflare.com/ajax/libs/es6-shim/0.34.1/es6-shim.js"
+      },
+      "Zones": {
+        "type": "path",
+        "path": "https://cdnjs.cloudflare.com/ajax/libs/zone.js/0.8.12/zone.min.js"
+      },
+      "@microsoft/sp-webpart-base": {
+        "type": "component",
+        "version": "1.1.1",
+        "id": "974a7777-0990-4136-8fa6-95d80114c2e0"
+      },
+      "@microsoft/sp-core-library": {
+        "type": "component",
+        "version": "1.1.0",
+        "id": "7263c7d0-1d6a-45ec-8d85-d4d1d234171b"
+      }
+    }
+  }
+}
