@@ -7,7 +7,7 @@ Set of SharePoint Framework WebParts using Angular as its main UI framework. The
 
 Solution|Author(s)
 --------|---------
-spfx-angular - Manan Choksi 
+spfx-angular -   Manan Choksi 
 
 ## Version history
 
